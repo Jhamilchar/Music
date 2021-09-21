@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Roboto:wght@100;300;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto" , sans-serif;
+}
+
+.navbar {
+    background-color: #edcb54;
+    display: grid;
+    grid-template-columns: repeat(8 , 1fr);
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 60px;
+    height: 60px;
+    grid-column: 2 / 3;
+}
+
+.navbar .menu {
+    grid-column: 4 / 7;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.navbar .menu a{
+    text-decoration: none;
+    color: #181818;
+}
+
+.navbar .menu a:hover {
+    text-decoration: underline;
+    color: white;
+    transition: .3s;
+}
+
+.navbar .menu-bar {
+    display: none;
+}
+
+.navbar .shopping {
+    grid-column: 8 / 9;
+}
+
+/* Section main */
+
+.hero {
+    height: 84.3vh;
+    background-image: linear-gradient(rgba(16, 16,16, .8), rgba(16, 16,16, .9)), url(../img/bg.jpg);
+    background-size: cover; 
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10 , 1fr);
+    grid-template-rows: repeat(8 , 1fr);
+}
+
+.info-content {
+    grid-column: 7 / 10;
+    grid-row: 3 / 7;
+    color: white;
+}
+
+.hero h3{
+    font-family: "Montserrat" , sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.hero h1{
+    font-size: 5em;
+    font-weight: 600;
+    line-height: 80px;
+    color: #edcb54;
+}
+
+.hero p {
+    font-family: "Montserrat" , sans-serif;
+    line-height: 30px;
+}
+
+.hero .btn {
+    font-size: 1em;
+    background-color: inherit;
+    color: white;
+    border: 1px solid #edcb54;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    transition: .5s;
+}
+
+.hero .btn:hover {
+    background-color: #edcb54;
+    color: #181818;
+}
+
+/* Footer */
+
+.footer {
+    display: grid;
+    height: 79px;
+    align-items: center;
+    background-color: #181818;
+    color: white;
+    grid-template-areas: 
+    "listen-online follow-me social-netwok";
+}
+
+.footer .listen-online {
+    grid-template-areas: listen-online;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #edcb54;
+    padding: 25px;
+}
+
+.footer .listen-online .fas {
+    font-size: 1.5em;
+}
+
+.footer .follow-me {
+    grid-template-areas: follow-me;
+    text-align: center;
+}
+
+.footer .social-network {
+    grid-template-areas: social-network;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.footer .social-network > * {
+    padding:0 25px;
+    color: #edcb54;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.footer .social-network .fab:hover {
+    color: white;
+    
+}
+

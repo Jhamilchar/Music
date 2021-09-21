@@ -1,0 +1,57 @@
+@media only screen and (max-width: 600px) {
+    .navbar {
+        background-color: #edcb54;
+    }
+
+    .navbar .shopping {
+        display: none;
+    }
+
+    .navbar .menu-bar {
+        display: block;
+        grid-column: 8 / 9;
+        font-size: 2em;
+        cursor: pointer;
+    }
+
+    .navbar .menu {      
+        display: none;
+    }
+
+    .navbar .menu-toggle {
+        position: absolute;
+        width: 35%;
+        height: 40vh;
+        align-items: center;
+        display: grid;
+        transform: translate(186%);
+        margin-top: 24em; 
+        background-color: #edcb54;
+        transition: all 1.5s;
+    } 
+
+    /* Section */
+
+    .info-content {
+        grid-column: 2 / 9;
+        grid-row: 4 / 9;
+    }
+
+    .hero h1 {
+        font-size: 3.5em;
+    }
+
+    /* Footer */
+
+    .footer .follow-me {
+        display: none;
+    }
+
+    .footer .social-network {
+        text-align: center;
+    }
+
+    .footer .social-network > * {
+        font-size: 1.5em;
+    }
+}
