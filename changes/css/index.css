@@ -1,0 +1,959 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+}
+
+.wrapper {
+    width: 104rem;
+    margin: 0 auto;
+}
+
+.top-0 {
+    height: 3.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.find {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+.barra {
+    color: rgb(95, 95, 95);
+    padding: 0 0.7rem ;
+}
+
+.united {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    padding-left: 0.4rem;
+    padding-top: 0.2rem;
+}
+
+.eu {
+    cursor: pointer;
+}
+
+.flecha {
+    color: #fff;
+    padding-left: 0.5rem;
+    padding-top: 0.4rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.two-elements-top {
+    display: flex;
+    align-items: center;
+}
+
+.top-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color:#292828;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+
+}
+
+.list_nav{
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+.list_nav li {
+    display: flex;
+    align-items: center;
+    padding: 0 1.2rem;
+}
+
+li .nav-item {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+
+}
+
+.nav-item:last-child{
+    font-size: 1rem;
+}
+
+.logo {
+    padding-left: 4rem;
+    cursor: pointer;
+}
+
+.container-cars {
+    margin: auto 0;
+}
+
+.cars{
+   margin: auto ;
+   width: 4rem;
+   height: 2.5rem;
+   padding-right: 4rem;
+   cursor: pointer;
+}
+
+.background-top{
+    background-image: url("../imagenes/welcome-gipson.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    block-size: 39.5rem;
+    inline-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: -1;
+    margin-bottom: 3rem;
+}
+
+.inset-box {
+    width: 36rem;
+    height: 30rem;
+    margin-right: 6.7rem;
+    margin-top: 7rem;
+}
+
+.inset-box>* {
+    color: white;
+}
+
+.the-everly{
+    font-size: 2.7rem;
+    line-height: 3.7rem;
+}
+
+.ebony{
+    font-size: 1.3rem;
+
+}
+
+.but{
+    background-color:#84734d;
+    font-size: 1.4rem;
+    border-radius: 0rem;
+    color: #fff;
+    padding: 1rem 5rem;
+    border-color:#84734d;
+    cursor: pointer;
+    font-family:'Pathway Gothic One', sans-serif;
+}
+
+
+.wrapper2{
+    background-color:#fff;
+    height: 15rem;
+    text-align: center;
+
+}
+
+.top-2{
+    font-size: 1.8rem;
+}
+
+.shop-by {
+    color: black;
+    text-align: center;
+}
+
+.guitars{
+    display: flex;
+    margin-top: 3.2rem;
+    justify-content: space-around;
+}
+
+.git-img img{
+    height: 9rem;
+    width: 6rem;
+    padding:0 6rem ;
+    cursor: pointer;
+}
+
+.name-git {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.inset-box-1 {
+    width: 34rem;
+    height: 20rem;
+    margin-right: 12rem;
+    margin-top: 7rem;
+}
+
+.inset-box-1>*{
+    color: #fff;
+}
+
+.background-top-1{
+    background-color: #000;
+    inline-size: 106.4rem;
+    block-size: 38rem;
+    margin-top: 3rem;
+    display: flex;
+    margin: 0 auto;
+}
+
+.but2{
+    background-color:#84734d;
+    font-size: 1.4rem;
+    border-radius: 0rem;
+    color: #fff;
+    padding: 1rem 5rem;
+    border-color:#84734d;
+    cursor: pointer;
+    border: none;
+    font-family:'Pathway Gothic One', sans-serif;
+}
+
+.background-top-1{
+    background-color: #000;
+    block-size: 37.9rem;
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.container-img_top  {
+    height: 100%;
+    width: 65rem;
+}
+
+    .imgfont {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+ /* .three-sections */
+.container-style{
+    display: flex;
+    justify-content: space-between;
+    inline-size: 106.4rem;
+    margin-top: 3rem;
+    margin: auto;
+    margin-bottom: 3rem;
+    gap: 2rem;
+}
+
+
+.three-sections {
+    color: #fff;
+    height: 37rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+}
+
+.three-sections h2{
+    margin: 1rem 0 0 3rem;
+    padding: 0.1rem;
+}
+
+.three-sections p{
+    margin: 0rem;
+    margin-left: 3rem;
+}
+
+.three-sections button{
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.three-sections h2 {
+    margin-right: 1rem;
+    font-size: 2.1rem;
+    margin-top: 2.5rem;
+}
+.three-sections p{
+    margin-bottom: 2rem;
+    margin-right: 10rem;
+}
+
+ .img-1{
+     width:34.6rem;
+     height: 17rem;
+    vertical-align: middle;
+ }
+
+.but2-display {
+    background-color:#84734d;
+    font-size: 1.4rem;
+    border-radius: 0rem;
+    color: #fff;
+    border-color:#84734d;
+    cursor: pointer;
+    font-family:'Pathway Gothic One', sans-serif;
+    width: 17rem;
+    border: none;
+    height: 3.3rem;
+}
+ /* next section */
+
+ .container-yellow{
+    inline-size: 106.4rem;
+    margin: 0 auto;
+    display: flex;
+    gap:2rem;
+    margin-bottom: 3rem;
+
+ }
+
+ .background-top-2{
+    display: flex;
+    margin: auto;
+    border: solid 1px #BBBBBB;
+    flex: 1;
+}
+
+ .three-sections-2 {
+    color: #fff;
+    height: 40rem;
+    flex-direction: column;
+}
+
+ .imgfont-2{
+    width: 26rem;
+    height: 19rem;
+ }
+
+ .but2black{
+    background-color:#000;
+    font-size: 1.4rem;
+    border-radius: 0rem;
+    color: #fff;
+    padding: 1rem 5rem;
+    border-color:#84734d;
+    cursor: pointer;
+    font-family:'Pathway Gothic One', sans-serif;
+    border: none;
+ }
+ .inset {
+    margin: 2rem;
+    margin-top: 5rem;
+ }
+
+ .the-everly-brothers-2{
+    font-size: 2rem;
+ }
+
+.ebony-2{
+    margin-top: -1rem;
+    margin-bottom: 1;
+}
+
+ /* section GIBSON BRANDS FAMILY  */
+
+ .container-style-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+    background-color: #000;
+    block-size: 54rem;
+}
+
+.gibson-3{
+    color: #fff;
+    font-family:'Pathway Gothic One', sans-serif;
+    font-size: 2rem ;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+.black-3{
+    display: flex;
+    inline-size: 106.4rem;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+.img-3-1{
+    width: 7rem;
+    height: 4.7rem;
+    margin: 2rem;
+}
+
+.three-sections-3 {
+    color: #000;
+    height: 43rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 3rem;
+    width: 30rem;
+}
+
+.three-sections-3 h2{
+    margin: 1rem 0 0 3rem;
+    padding: 0rem;
+}
+
+.three-sections-3 p{
+    margin: 0rem;
+    margin-left: 3rem;
+}
+
+.three-sections-3 button{
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.three-sections-3 h2 {
+    margin-right: 1rem;
+    font-size: 2.1rem;
+    margin-top: -2rem;
+}
+.three-sections-3 p{
+    margin-bottom: 2rem;
+    margin-right: 10rem;
+}
+
+ .img-3{
+     width:auto;
+     height: 17rem;
+    vertical-align: middle;
+    object-fit: cover;
+ }
+
+ .but2-display-3 {
+    background-color:#000000;
+    font-size: 1.4rem;
+    border-radius: 0rem;
+    color: #fff;
+    cursor: pointer;
+    font-family:'Pathway Gothic One', sans-serif;
+    width: 17rem;
+    border: none;
+    height: 3.3rem;
+ }
+
+ /* next colunm */
+
+ .container-4{
+    inline-size: 106.4rem;
+    margin: 0 auto;
+    display: flex;
+    gap:2rem;
+    margin-bottom: 3rem;
+
+ }
+
+ .background-top-4{
+    display: flex;
+    margin: auto;
+    border: solid 1px #BBBBBB;
+    flex: 1;
+}
+
+ .three-sections-4 {
+    color: #fff;
+    height: 40rem;
+    flex-direction: column;
+}
+
+ .imgfont-4{
+    width: 26rem;
+    height: 19rem;
+    object-fit: cover;
+ }
+
+ .inset-4 {
+    margin: 2rem;
+    margin-top: 5rem;
+ }
+
+ .the-everly-brothers-4{
+    font-size: 2rem;
+ }
+
+.ebony-2{
+    margin-top: -1rem;
+    margin-bottom: 1;
+}
+
+/* Next section column */
+
+.video-1{
+    background-color: rgb(47, 45, 45);
+    margin-bottom: 5rem;
+}
+
+.img-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #292828;
+}
+
+.img-link{
+    inline-size: 106.4rem;
+    margin: auto;
+    display: flex;
+    align-items: center ;
+
+}
+
+.imagen-icono{
+height: 5.5rem;
+width: 6.8rem;
+margin: 2rem 0;
+}
+
+.link-5{
+    text-decoration: none;
+    color: #fff;
+    margin: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.stevens{
+    inline-size: 90rem;
+}
+
+.cat-stevens {
+    width: 100%;
+    height: 45.3rem;
+    vertical-align: middle;
+    z-index: -1;
+}
+
+.fill-row {
+    display: flex;
+    width: 100%;
+    margin-top: -6rem;
+    height: 6rem;
+    z-index: 1;
+}
+
+.fill-row a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.619);
+    flex: 1;
+    padding-top: 2.5rem;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+.img-play {
+    width: 4rem;
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 15rem;
+    cursor: pointer;
+}
+.play p{
+    color: #fff;
+    margin: 1rem;
+}
+/* next column-3 */
+
+.column-three {
+    display: flex;
+    padding-bottom: 4rem;
+    inline-size: 106.4rem;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+.column-3{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.column-3_inter {
+    display: flex;
+    flex-direction: column;
+    width: 26rem;
+    position: relative;
+}
+
+.inter-box_min {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.619);
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.img-play-icon{
+    height: 3rem;
+    width: 3rem;
+}
+
+.inter-box_min a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    flex: 1;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* next column */
+
+.container-play{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+
+.container-repair{
+    display: flex;
+}
+
+.container-repair img {
+    vertical-align: bottom;
+    object-fit: cover;
+}
+
+.container-repair > * {
+    width: 26.25rem;
+    height: 37rem;
+}
+
+.container-black{
+    background-color: #000;
+    color: #fff;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+.container-black > *{
+    width: 20.6rem;
+}
+
+.container-black h3{
+    font-size: 2rem ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: .1rem;
+
+}
+
+.container-black p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+
+
+}
+
+.play-google{
+    width: 100%;
+
+}
+
+.img-2_1{
+    width: 13rem;
+    height: 2.5rem;
+    margin: 1rem 0;
+    margin-left: -7rem;
+    cursor: pointer;
+}
+
+/* next section */
+
+.font-negro{
+    background-color: #000;
+    width: 112.5rem;
+    height: 36.8rem;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    margin:  0 auto;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.año {
+    background-color: #84734d;
+    width: 40.5rem;
+    height: 25rem;
+    display: flex;
+    margin-right: -8rem;
+    z-index: 9999;
+    margin-left: -3rem;
+}
+
+.columna-1 {
+    width: 50%;
+    color: #fff;
+    margin-left: 3rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+
+.but2-display-6 {
+    cursor: pointer;
+    background-color: #84734d;
+    font-size: 1.4rem;
+    border-radius: 0rem;
+    color: #fff;
+    border-color: #84734d;
+    cursor: pointer;
+    font-family: 'Pathway Gothic One', sans-serif;
+    width: 17rem;
+    border: none;
+    height: 3.3rem;
+}
+
+.img-right_background {
+    width: 50%;
+}
+
+.right-background_child {
+    width: 40rem ;
+    height: 100%;
+    margin-left: -20rem;
+}
+
+/* next columm */
+
+.container-5 {
+    inline-size: 106.6rem;
+    height: 36.6rem;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.imgfont-5 {
+    width: 64rem;
+    height: 36.6rem;
+    object-fit: cover;
+}
+
+.background-top-5 {
+    display: flex;
+    margin: auto;
+    border: solid 1px #BBBBBB;
+}
+
+.inset-5 {
+    margin: 2.7rem;
+    margin-top: 13rem;
+    line-height: 1.7rem;
+    font-family: 'Pathway Gothic One', sans-serif;;
+    font-size: 1.3rem;
+}
+
+.ebony-5 {
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* next section */
+
+.sing {
+    background-color: #F7F8FA;
+}
+
+.fex-email-img{
+    display: flex;
+    height: 23.5rem;
+    inline-size: 95rem;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.caja-email {
+    width: 70%;
+}
+
+.caja-email h2 {
+    font-size: 2.3rem;
+}
+
+.email {
+    width: 40rem;
+}
+
+.privacy-poliy > * {
+    color: #000;
+}
+
+.follow {
+    width: 30%;
+}
+
+input[type="email" i] {
+    font-size: .96rem;
+    padding: 1rem 0;
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid black;
+    margin-right: 1rem;
+    margin-bottom: 1.7rem;
+}
+
+.follow h4 {
+    font-size: 1.1rem;
+}
+
+.redes-sociales {
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+/* next section */
+
+.container-black-footer {
+    background-color: #181818;
+    display: flex;
+    block-size: 54.4rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 96rem;
+    height: 46.6rem;
+    margin:0 auto;
+}
+
+.h3-title {
+    font-size: 1.2rem;
+    padding-top: 3rem;
+    font-weight: bold;
+}
+
+.separacion {
+    margin-top: 3.2rem;
+}
+
+.shop {
+    color: white;
+}
+
+.shop li {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.shop li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+
+.img-google-store-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.imagen-store {
+    width: 12rem;
+    margin: 1rem 0;
+}
+
+.list-bot {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.list-bot p a {
+    color: #fff;
+}
+
+
+.container-gray-footer {
+    background-color: #292828;
+    display: flex;
+    flex-direction: column;
+    block-size: 14.2rem;
+    justify-content: center;
+    align-items: center;
+    height: 24rem;
+}
+
+.container-gray-footer p {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.visit {
+    margin-bottom: 3.3rem;
+    margin-top: 2rem;
+}
+
+.img-svg {
+    width:95.4rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.img-zise {
+    width: 4rem;
+}
+
+.img-svg-2 {
+    width: 11rem;
+    margin-left: -3rem;
+}
+
+.img-svg-1{
+    width: 6rem;
+    height: 5rem;
+}
+
+.finish-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish{
+    display: flex;
+    align-items: center;
+    width: 100rem;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 3rem;
+}
+.finish  a {
+    color: #fff;
+}
